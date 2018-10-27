@@ -7,7 +7,7 @@ int main()
     int t;
     cin >>t;
     map<pair<string,string>,int> m;
-    map<pair<string,string>,int>::iterator it,it1,it2;
+    map<pair<string,string>,int>::iterator it1,it1,it2;
     vector<int> v;
     string a;
     string b;
@@ -18,7 +18,7 @@ int main()
         pair<string,string> p(a,b);
         m[p]=x;
     }
-    it=m.begin();
+    it1=m.begin();
     for( ;it!=m.end();it++)
     {
         if (++it == m.end())
